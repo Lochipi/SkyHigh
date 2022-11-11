@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero{
+	height: 70vh;
+	background-color: #FFEEEC;
+	width: 100%;
+}
+.hero-img img{
+	height: 400px;
+	width: 500px;
+	object-fit: cover;
+	background-position: center;
+	margin: 40px 0px 0px 40px;
+	border: none;
+	border-radius: 6px;
+}
+.hero-right{
+	margin-top: 50px;
+}
+.hero-right h1{
+	font-size: 50px;
+}
+
+.hero-right p{
+	font-size: 20px;
+	padding: 15px 0px 15px 0px;
+}
+
+.hero-buttons {
+	display: inline-block;
+}	
+.hero-right .btn-start{
+	color: #fff;
+	background-color: #624FF8;
+	padding: 15px 55px;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	transition: .4s;
+	margin-right: 15px;
+}
+.hero-right .btn-learn{
+	color: #fff;
+	padding: 15px 55px;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	transition: .4s;
+}
+.hero-right .btn-learn:hover,.hero-right .btn-start:hover{
+	background-color: #161D39;
+	transform: scale(1.07);
+	text-decoration: none;
+}
+
+.about{
+	width: 100%;
+	height: 100vh;
+	background-color: #091636;
+	/*background-image: url(images/studio.jpg);*/
+}
+
+.about-description h1{
+	color: grey;
+	margin: 50px 0 0 100px;
+}
+.about-description h5{
+	color: #808080;
+	margin: 50px 0 50px 100px;
+}
+.service-container,
+.service-container2,.service-container3 {
+	height: 370px;
+	width: 330px;
+	margin: auto;
+	background-color: #091636;
+	border-radius: 5px;
+	color: grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: .3s;
+}
+.service-container:hover,
+.service-container2:hover,.service-container3:hover{
+	color: #fff;
+}
+.descri-no h4,
+.descri-no2 h4,.descri-no3 h4{
+	color: #67FBAE;
+	padding:5px 0 10px 15px;
+}
+.descri-head h3{
+	color: #fff;
+	padding:0 0 15px 10px;
+}
+.descri-head2 h3,.descri-head3 h3{
+	color: #fff;
+	padding:0 0 25px 15px;
+}
+.descri-paragraph h5{
+	padding-left: 5px;
+}
+.descri-paragraph2 h5,.descri-paragraph3 h5{
+	padding-left: 5px;
+}
+
+.service-container:hover,.service-container2:hover,.service-container3:hover{
+	background-color: #9F55F2;
+}
+
+.footer{
+	width: 100%;
+	height: 70vh;
+	background-color: black;
+	color: #fff;
+}
+.list-items li{
+	list-style: none;
+	padding-left: 20px;
+}
