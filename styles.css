@@ -113,13 +113,24 @@
 	background-color: #9F55F2;
 }
 
+/*footer section*/
 .footer{
 	width: 100%;
-	height: 70vh;
+	height: 50vh;
 	background-color: black;
 	color: #fff;
 }
 .list-items li{
 	list-style: none;
 	padding-left: 20px;
+}
+
+.social-media{
+	display: inline-block;
+}
+
+    hr{
+    height: 2px;
+    background-color: #ccc;
+    border: none;
 }
