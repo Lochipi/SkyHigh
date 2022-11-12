@@ -4,10 +4,79 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
+
+	<!-- bootstrap link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+
+	<style>
+		.card{
+			width: 500px;
+			height: 700px;
+			margin: auto;
+			margin-top: 20px;
+			border: none;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		hr{
+			margin-top: 30px;
+		}
+
+		.create-link{
+			border: 2px solid grey;
+			background-color: grey;
+			margin: 30px 50px;
+			color: #fff;
+			padding: 8px 100px;
+		}
+		.create-link:hover{
+			color: #fff;
+		}
+		.check-guidlines{
+			display: inline-block;
+		}
+		.check-guidlines input{
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
+
     <div class="card">
-    	
-    </div>
+    	<div class="card-body">
+    		<h2 class="card-title">Sign up</h2>
+
+    		<hr>
+
+	            <div class="form-group">
+	            	<label>Username*</label>
+	    			<input type="text" name="" class="form-control">
+	    		</div>
+	    		<div class="form-group">
+	    			<label>Email Address*</label>
+    			   <input type="Email" name="" class="form-control">
+    		    </div>
+
+    		    <p>Your Email address willl be added to the meta data of the packages that you publish, so it may be seen publicly</p>
+
+    		    <div class="form-group">
+	    			<label>Pasword*</label>
+    			   <input type="password" name="" class="form-control">
+    		    </div>
+
+    		    <p>Minimum of 10 characters and must meet our password guidlines.</p>
+
+    		    <div class="check-guidlines">
+    		    	<input type="checkbox" name=""> <span>I agree to the end <a href="#">End User Licence Agreement</a> and the <a href="#">Privacy Policy</a></span>
+    		    </div>
+
+    		    
+           
+                <a href="#" class="btn create-link">Create an Account</a>
+    	  </div>
+            		
+    	  </div>
+
+    <!-- js bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
