@@ -44,7 +44,7 @@
 	transition: .4s;
 	margin-right: 15px;
 }
-.hero-right .btn-learn{
+.hero-right .btn-contact{
 	color: #fff;
 	padding: 15px 55px;
 	border-radius: 10px;
@@ -53,7 +53,7 @@
 	border: none;
 	transition: .4s;
 }
-.hero-right .btn-learn:hover,.hero-right .btn-start:hover{
+.hero-right .btn-contact:hover,.hero-right .btn-start:hover{
 	background-color: #161D39;
 	transform: scale(1.07);
 	text-decoration: none;
